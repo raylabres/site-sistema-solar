@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    background: black;
+    color: white;
+    background: url('templates/fundo.png');
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.938rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagem-header{
+    width: 5rem;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    gap: 7.5rem;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.conteudo{
+    margin-bottom: 7.813rem;
+    border-top: 0.025rem solid #FFFFFF;
+}
+
+.conteudo-principal-escrito{
+    margin-top: 5rem;
+}
+
+.conteudo-principal-titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5rem;
+    font-family: Bebas Neue;
+    font-weight: 600;
+    font-size: 6.25rem;
+    color: white;
+}
+
+.conteudo-principal-subtitulo{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-between;
+    margin-left: 12.5rem;
+}
+
+.conteudo-secundario-imagem{
+    margin-top: 6.29rem;
+    margin-left: 81.4rem;
+    margin-right: auto;
+}
+
+.imagem-secundaria{
+    width: 37.5rem;
+    height: auto;
+}
+
+.rodape{
+    border-top: 0.025rem solid #FFFFFF;
+    margin-top: 1.875rem;
+    padding: 0.938rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.conteudo-rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem-rodape{
+    width: 5em;
+    height: auto;
+}

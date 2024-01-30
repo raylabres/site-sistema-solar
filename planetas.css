@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&family=Bebas+Neue&family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 100%;
+    background: black;
+    background: url('templates/fundo.png');
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.938rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.imagem-header {
+    width: 5rem;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 7.5rem;
+}
+
+.menu-escrito {
+    font-family: 'Archivo', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.conteudo {
+    /* margin-bottom: 7.813rem; */
+    border-top: 0.025rem solid #FFFFFF;
+}
+
+.planetas-dupla-1 {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planeta-mercurio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imagem-mercurio {
+    width: 15rem;
+    height: auto;
+}
+
+.conteudo-mercurio{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-mercurio-titulo{
+   font-family: Bebas Neue;
+   font-size: 4rem;
+   font-weight: 600;
+   margin-left: 0.5rem;
+}
+
+.conteudo-mercurio-subtitulo{
+    display: flex;
+    padding: 0.5rem;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.planeta-venus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.imagem-venus {
+    width: 15.5rem;
+    height: auto;
+}
+
+.conteudo-venus {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-venus-titulo{
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.4rem;
+}
+
+.conteudo-venus-subtitulo{
+    display: flex;
+    padding: 0.5rem;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.planetas-dupla-2 {
+    margin-top: 4rem;
+    padding: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planeta-terra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 15rem;
+}
+
+.imagem-terra {
+    width: 15.8rem;
+    height: auto;
+}
+
+.conteudo-terra{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-terra-titulo{
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.313rem;
+}
+
+.conteudo-terra-subtitulo{
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.planeta-marte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 0.625rem;
+}
+
+.imagem-marte {
+    width: 15rem;
+    height: auto;
+}
+
+.conteudo-marte{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-marte-titulo{
+    display: flex;
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.500rem;
+}
+
+.conteudo-marte-subtitulo{
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.planetas-dupla-3{
+    margin-top: 0.625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planeta-jupiter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-left: 3rem;
+}
+
+.imagem-jupiter {
+    width: 16rem;
+    height: auto;
+}
+
+.conteudo-jupiter {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-jupiter-titulo{
+    display: flex;
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.700rem;
+}
+
+.conteudo-jupiter-subtitulo{
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.planeta-saturno{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 3rem;
+}
+
+.imagem-saturno {
+    width: 28rem;
+    height: auto;
+}
+
+.conteudo-saturno {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-saturno-titulo {
+    display: flex;
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.conteudo-saturno-subtitulo {
+    display: flex;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.planetas-dupla-4 {
+    margin-top: 6.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.planeta-urano {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 7rem;
+    
+}
+
+.imagem-urano {
+    width: 20rem;
+    height: auto;
+}
+
+.conteudo-urano {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-urano-titulo {
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.conteudo-urano-subtitulo {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.planeta-netuno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin-right: 5rem;
+}
+
+.imagem-netuno {
+    width: 16rem;
+    height: auto;
+}
+
+.conteudo-netuno {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-netuno-titulo {
+    font-family: Bebas Neue;
+    font-size: 4rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.conteudo-netuno-subtitulo {
+    font-family: 'Archivo', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.rodape {
+    border-top: 0.025rem solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 5rem;
+}
+
+.conteudo-rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.938rem;
+}
+
+.imagem-rodape {
+    width: 5rem;
+    height: auto;
+}
